@@ -202,7 +202,7 @@ jobs:
           - Commit
         NERD:
           - SUFFIX: NF
-            ARGS: --nerd-font
+            ARGS: --nf-mono
           - SUFFIX: XX
             ARGS: --no-nerd-font
         NARROW:
