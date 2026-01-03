@@ -319,7 +319,7 @@ jobs:
           for STYLE in "Thin" "ThinItalic" "ExtraLight" "ExtraLightItalic" "Light" "LightItalic" "Regular" "Italic" "Medium" "MediumItalic" "SemiBold" "SemiBoldItalic" "Bold" "BoldItalic" "ExtraBold" "ExtraBoldItalic"; do
             if [[ "$NERD_SUFFIX" == "NF" ]]; then
               fontforge "fuse_fonts.ff" \
-                "source-fonts/maple/MapleMonoNormal-NF-CN-$STYLE.ttf" \
+                "source-fonts/maple/MapleMonoNormal-NFMono-CN-$STYLE.ttf" \
                 "source-fonts/jetbrains/JetBrainsMono-$STYLE.ttf" \
                 "$FUSION_ID-$STYLE" \
                 "$FUSION_NAME" \
